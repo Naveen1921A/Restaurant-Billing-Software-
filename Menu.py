@@ -35,6 +35,7 @@ class MenuManager():
         for item in Self.Menu:
             print (f"{item['Code']} - {item['Name']} - ${item['Price']}")
             print ("-------------------------------------------\n")
+        
 
 
 
