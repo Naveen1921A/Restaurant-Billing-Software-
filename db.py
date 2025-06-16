@@ -30,6 +30,9 @@ class Databasemanager():
         orders = self.cursor.fetchall()
         print("\n--- Order History ---")
         for order in orders:
+
+
+            
             print(f"{order[0]}. {order[1]} | ₹{order[3]:.2f} | {order[4]} | {order[2]}")
         print("----------------------\n") 
            
