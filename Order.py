@@ -36,3 +36,4 @@ class OrderManager:
         self.db.insert_order(Customer_Name,items,total)  
         print ("Order Saved Sucessfully\n")
 
+
